@@ -53,14 +53,14 @@ WARNING!!! WARNING!!!
     // Look up these methods on Mozilla Developer Network web site if needed.
     // var firstLetter =
 
-    var fL = names[i].charAt(0);
+    var firstLetter = names[i].charAt(0);
 
     // STEP 12:
     // Compare the 'firstLetter' retrieved in STEP 11 to lower case
     // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
     // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
     // name in the loop.
-    if (fL == 'j' || fL == 'J') {
+    if (firstLetter == 'j' || firstLetter == 'J') {
       byeSpeaker.speak(names[i]);
     } else {
       helloSpeaker.speak(names[i]);
